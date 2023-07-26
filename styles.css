@@ -63,9 +63,6 @@ h2 {
     align-items: center;
     border-bottom: 1px solid #ccc;
     padding: 0.5rem 0;
-    animation: fadeIn 0.5s ease-in-out;
-    opacity: 0;
-    transition: transform 0.2s ease;
 }
 
 .entry:hover {
