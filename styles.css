@@ -48,6 +48,15 @@ h2 {
     padding: 0;
 }
 
+.entry-title {
+    font-weight: bold;
+}
+
+.entry-rating {
+    color: #888;
+}
+
+
 .entry {
     display: flex;
     justify-content: space-between;
@@ -56,12 +65,24 @@ h2 {
     padding: 0.5rem 0;
     animation: fadeIn 0.5s ease-in-out;
     opacity: 0;
+    transition: transform 0.2s ease;
 }
 
-.entry-title {
-    font-weight: bold;
+.entry:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
-.entry-rating {
-    color: #888;
+.entry img {
+    width: 50px; /* Adjust the size of the small image as needed */
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
 }
+
+.entry-content {
+    flex: 1;
+}
+
+/* ... existing styles ... */
