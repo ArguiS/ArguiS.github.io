@@ -65,9 +65,3 @@ h2 {
 .entry-rating {
     color: #888;
 }
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
