@@ -84,6 +84,13 @@
     "entryComment": "Pretty unique flag, it has a 3:5 ratio and has the color red which is a traditional colour of the arab states of the persian gulf and the 5 triangles stand for the five pillars of Islam. Back then it had twenty-eight triangles but this got changed."
   },
   {
+    "imgPath": "images/countryFlags/Bangladesh.png",
+    "imgAlt": "Bangladesh flag",
+    "entryTitle": "Bangladesh",
+    "entryRating": "3.5/10",
+    "entryComment": "Very odd choice of color but interesting funfacts: The \"sun\" is slightly placed to the left so it looks centered when flying. also, the very first flag was made from clothes donated by Bazlur Rahman Lasker, who owns the biggest market in Bangladesh"
+  },
+  {
     "imgPath": "images/countryFlags/.png",
     "imgAlt": "flag",
     "entryTitle": "",
