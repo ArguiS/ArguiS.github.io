@@ -1,0 +1,16 @@
+[
+  {
+    "imgPath": "images/Thumbnails/placeholder.png",
+    "imgAlt": "alt",
+    "entryTitle": "Test",
+    "entryRating": "10/10",
+    "entryComment": "ahhh please work"
+  },
+  {
+    "imgPath": "",
+    "imgAlt": "",
+    "entryTitle": "",
+    "entryRating": "",
+    "entryComment": ""
+  }
+]
