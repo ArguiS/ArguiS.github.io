@@ -5,7 +5,7 @@ let entries = [
     // ...
 ];
 //You will have to get the entries array from your json file using JSON.parse()
-
+console.log(entries)
 entries.forEach((entry) => {
     page.innerHTML += `<div class="entry-content">
             <div class="entry-title">${entry.title}</div>
