@@ -1,23 +1,15 @@
-const data = require('./countryFlags.json');
-const template = `<div class="image-container">
-        <img src="{{imgPath}}" alt="{{imgAlt}}">
-    </div>
-    <div class="entry-content">
-        <div class="entry-title">{{entryTitle}}</div>
-        <div class="entry-rating">Rating: {{entryRating}}</div>
-        <div class="entry-comment">{{entryComment}}</div>
-    </div>
-</div>`;
+let page = document.querySelector("#page");
+let entries = [
+    { title: "Title1", rating: "Rating1", comment: "comment1" },
+    { title: "Title2", rating: "Rating2", comment: "comment2" },
+    // ...
+];
+//You will have to get the entries array from your json file using JSON.parse()
 
-let htmlString = '';
-data.forEach(d => {
-    let tmplCopy = template;
-    Object.keys(d).forEach(k => {
-        const pattern = new RegExp('{{' + k + '}}', 'g');
-        tmplCopy = tmplCopy.replace(pattern, d[k]);
-    });
-
-    htmlString += tmplCopy;
+entries.forEach((entry) => {
+    page.innerHTML += `<div class="entry-content">
+            <div class="entry-title">${entry.title}</div>
+            <div class="entry-rating">Rating: ${entry.rating}</div>
+            <div class="entry-comment">Comment: ${entry.comment}</div>
+        </div>`;
 });
-
-document.getElementById('output-container').innerHTML = htmlString;
