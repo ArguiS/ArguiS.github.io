@@ -76,7 +76,13 @@
     "entryRating": "6/10",
     "entryComment": "Pretty basic flag with meaning behind each color, what makes this better for me than most other flags is the type of blue that got used, its not the normal bright blue but aquamarine which makes it look so much better"
   },
-
+  {
+    "imgPath": "images/countryFlags/Bahrain.png",
+    "imgAlt": "Bahrain flag",
+    "entryTitle": "Bahrain",
+    "entryRating": "7/10",
+    "entryComment": "Pretty unique flag, it has a 3:5 ratio and has the color red which is a traditional colour of the arab states of the persian gulf and the 5 triangles stand for the five pillars of Islam. It looks similar to the Qatar flag but is brighter and has less triangles"
+  },
   {
     "imgPath": "images/countryFlags/.png",
     "imgAlt": "flag",
