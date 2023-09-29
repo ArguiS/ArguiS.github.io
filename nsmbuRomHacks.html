@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Flags Rating</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!--TODO: seperate js and css in their supposed files and link them-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        /* devanagari */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            src: url(fonts/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            src: url(fonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            src: url(fonts/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        html * {
+            font-family: Poppins;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: #222;
+            color: #fff;
+        }
+
+        h1 {
+            margin: 0;
+            user-select: none;
+            text-align: center;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: 1px solid rgb(80, 80, 80);
+        }
+
+        .entry-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .entry {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+            text-align: left;
+            background-color: #333;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+
+        .image-container {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+
+        .entry-content {
+            margin-top: 10px;
+        }
+
+        .entry-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .entry-rating,
+        .entry-name,
+        .entry-comment {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<!--
+####
+####
+####
+-->
+<body>
+<h1>Every single NSMBU RomHack i could find</h1>
+<p>entries done: 0</p>
+<p>entries todo: 60</p>
+<hr>
+<div class="entry-list" id="output-container">
+</div>
+<script>
+    const template = `
+        <div class="entry">
+            <div class="image-container">
+                <img src="{{imgPath}}" alt="{{imgAlt}}">
+            </div>
+            <div class="entry-content">
+                <div class="entry-title">{{entryTitle}}</div>
+                <div class="entry-rating">Rating: {{entryRating}}</div>
+                <div class="entry-comment">Comment: {{entryComment}}</div>
+            </div>
+        </div>`;
+
+    // Asynchronous function to fetch data from the JSON file
+    async function fetchData() {
+        try {
+            const response = await fetch('nsmbuRomHacks.json');
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('Error fetching data:', error);
+            return [];
+        }
+    }
+
+    // Function to replace placeholders in the template with actual data
+    function renderHTML(data) {
+        let htmlString = '';
+        data.forEach(d => {
+            let tmplCopy = template;
+            Object.keys(d).forEach(k => {
+                const pattern = new RegExp('{{' + k + '}}', 'g');
+                tmplCopy = tmplCopy.replace(pattern, d[k]);
+            });
+
+            htmlString += tmplCopy;
+        });
+
+        document.getElementById('output-container').innerHTML = htmlString;
+    }
+
+    // Call the functions to fetch data and render HTML when the page loads
+    window.addEventListener('DOMContentLoaded', async () => {
+        const data = await fetchData();
+        renderHTML(data);
+    });
+</script>
+</body>
+</html>
+
+<!--
+TODO:
+cloudy smbu
+cloudy smbu 2
+mini smbu
+mini smb2u
+extreme smbu
+another halloween special
+mario saves christmas
+super mario saves christmas
+luigi saves chrismas
+super luigi saves christmas
+volcanic smbu
+volcanic smbu 2
+deserted smbu
+broken smbu
+broken smbu 2
+mrbengtssons other smbu level pack
+small smbu
+small smbu2
+sm moonlite world
+smbu summer vacation
+boo super luigi U
+legendary smbu
+hard smbu
+autmunal nsmbu
+nsmbu wiggler woods
+small sm universe
+sakura smbu
+ns fliprus u
+iemnmn nsmbu pack
+scotexx nsmbu levelpack
+scotexx nsmbu levelpack 2
+nsmbu retro remix
+blizzard smbu
+boo smbu
+nsmbu but the floor is lava
+sm tropical freeze
+nsmbu biome changes 2
+new jungle mario bros. u
+another adventure in nsmbu
+mario one day escapade
+tricky smbu (demo)
+wooded smbu
+dsfanboys nsmbu pack
+snowy smbu
+other smbu halloween special
+hyplex bros U
+super mario sunshine seaside
+ns spike u
+kaizo smbu
+rendom smbu
+in smbu dimensions
+smg goomba u
+roalds levelpack island
+backwards smbu
+nsmbu return to pumpkin boneyard
+koopa smbu
+forested smbu
+marios little forest adventure
+nsmbu anniversary special
+straight-up weird smbu
+-->
