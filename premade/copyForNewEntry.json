@@ -1,0 +1,16 @@
+[
+  {
+    "imgPath": "images/Thumbnails/placeholder.png",
+    "imgAlt": "aaa",
+    "entryTitle": "ddd",
+    "entryRating": "X/10",
+    "entryComment": "desc"
+  },
+  {
+    "imgPath": "images/Thumbnails/placeholder.png",
+    "imgAlt": "aaa",
+    "entryTitle": "ddd",
+    "entryRating": "X/10",
+    "entryComment": "desc"
+  }
+]
