@@ -1,97 +1,97 @@
 [
   {
-    "imgPath": "images/countryFlags/Afghanistan.png",
+    "imgPath": "../images/countryFlags/Afghanistan.png",
     "imgAlt": "Afghanistan (taliban version) flag",
     "entryTitle": "Afghanistan",
     "entryRating": "2/10",
     "entryComment": "I like the non-taliban flag (that got changed 2021 to the old flag of 1997 because the taliban took over the government) alot, but the latest one is just the Shahada on a white background, if i want to read i'd open a book."
   },
   {
-    "imgPath": "images/countryFlags/Albania.png",
+    "imgPath": "../images/countryFlags/Albania.png",
     "imgAlt": "Albania flag",
     "entryTitle": "Albania",
     "entryRating": "7.5/10",
     "entryComment": "The Albanian flag is very recognizable flag that has a surprisingly interesting backstory where every element stands for something historical about the country/folk. It could look a bit more interesting instead of having just a red background"
   },
   {
-    "imgPath": "images/countryFlags/Algeria.png",
+    "imgPath": "../images/countryFlags/Algeria.png",
     "imgAlt": "Algeria flag",
     "entryTitle": "Algeria",
     "entryRating": "4/10",
     "entryComment": "The flag has the typical islamic red star and crescent and only two more colors, not a fan of the color choice, nothing special."
   },
   {
-    "imgPath": "images/countryFlags/Andorra.png",
+    "imgPath": "../images/countryFlags/Andorra.png",
     "imgAlt": "Andorra flag",
     "entryTitle": "Andorra",
     "entryRating": "6.5/10",
     "entryComment": "The flag of andorra is basically a small upgrade of the romanian flag. Even tho the three bars look the same size, its actually in an 8:9:8 ratio, so the yellow is a tiny bit bigger than the other two bars which adds a bit of personality to it"
   },
   {
-    "imgPath": "images/countryFlags/AntiguaAndBarbuda.png",
+    "imgPath": "../images/countryFlags/AntiguaAndBarbuda.png",
     "imgAlt": "Antigua And Barbuda flag",
     "entryTitle": "Antigua And Barbuda",
     "entryRating": "9/10",
     "entryComment": "\"The rising sun above the caribbean sea symbolises the dawning of a new era\" is what describes this flag the best, every color has multiple meanings and it was created to mark the achievement of self-government"
   },
   {
-    "imgPath": "images/countryFlags/Argentina.png",
+    "imgPath": "../images/countryFlags/Argentina.png",
     "imgAlt": "Argentina flag",
     "entryTitle": "Argentina",
     "entryRating": "3/10",
     "entryComment": "the flag has 3 equally thick lines in a weird bright blue and white. in the white stripe it includes the Sun of May which represents the Incan god \"Inti\". Interesting symbol but ugly colors"
   },
   {
-    "imgPath": "images/countryFlags/Armenia.png",
+    "imgPath": "../images/countryFlags/Armenia.png",
     "imgAlt": "Armenia flag",
     "entryTitle": "Armenia",
     "entryRating": "5/10",
     "entryComment": "The latest flag of armenia is nothing but an ordinary tricolor flag which every second country has. the earliest armenian flags like the flag of the Artaxiad Dynasty would have been perfect instead."
   },
   {
-    "imgPath": "images/countryFlags/Australia.png",
+    "imgPath": "../images/countryFlags/Australia.png",
     "imgAlt": "Australia flag",
     "entryTitle": "Australia",
     "entryRating": "7.5/10",
     "entryComment": "union jack but better! fairly interesting design compared to the normal tricolor flags and i like the addon of the one \"5 star\" and the few \"7 stars\". From all australian flags i prefer Torres Strait Islanders flag tho"
   },
   {
-    "imgPath": "images/countryFlags/Austria.png",
+    "imgPath": "../images/countryFlags/Austria.png",
     "imgAlt": "Austria flag",
     "entryTitle": "Austria",
     "entryRating": "5.5/10",
     "entryComment": "Generally a pretty basic tricolor flag, nothing special to say here except for its very early usage. the first austria flag was seen in 1230 and was one of the earlier flags that represented a country"
   },
   {
-    "imgPath": "images/countryFlags/Azerbaijan.png",
+    "imgPath": "../images/countryFlags/Azerbaijan.png",
     "imgAlt": "Azerbaijan flag",
     "entryTitle": "Azerbaijan",
     "entryRating": "6.5/10",
     "entryComment": "Once again a tricolor flag, this however has some more unique and fitting colors. The blue stands for the turkic heritage, the red for progress and the green for islam. Every 9th of november Azerbaijani people hold the Azerbaijani flag day in honor of the first usage of the flag"
   },
   {
-    "imgPath": "images/countryFlags/Bahamas.png",
+    "imgPath": "../images/countryFlags/Bahamas.png",
     "imgAlt": "Bahamas flag",
     "entryTitle": "Bahamas",
     "entryRating": "6/10",
     "entryComment": "Pretty basic flag with meaning behind each color, what makes this better for me than most other flags is the type of blue that got used, its not the normal bright blue but aquamarine which makes it look so much better"
   },
   {
-    "imgPath": "images/countryFlags/Bahrain.png",
+    "imgPath": "../images/countryFlags/Bahrain.png",
     "imgAlt": "Bahrain flag",
     "entryTitle": "Bahrain",
     "entryRating": "7/10",
     "entryComment": "Pretty unique flag, it has a 3:5 ratio and has the color red which is a traditional colour of the arab states of the persian gulf and the 5 triangles stand for the five pillars of Islam. Back then it had twenty-eight triangles but this got changed."
   },
   {
-    "imgPath": "images/countryFlags/Bangladesh.png",
+    "imgPath": "../images/countryFlags/Bangladesh.png",
     "imgAlt": "Bangladesh flag",
     "entryTitle": "Bangladesh",
     "entryRating": "3.5/10",
     "entryComment": "Very odd choice of color but interesting funfacts: The \"sun\" is slightly placed to the left so it looks centered when flying. also, the very first flag was made from clothes donated by Bazlur Rahman Lasker, who owns the biggest market in Bangladesh"
   },
   {
-    "imgPath": "images/countryFlags/.png",
+    "imgPath": "../images/countryFlags/.png",
     "imgAlt": "flag",
     "entryTitle": "",
     "entryRating": "/10",
