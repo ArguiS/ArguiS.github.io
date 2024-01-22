@@ -1,0 +1,16 @@
+[
+  {
+    "imgPath": "../images/waysToCook/orangeChicken.webp",
+    "imgAlt": "orange chicken",
+    "entryTitle": "Orange Chicken",
+    "entryRating": "8.2/10",
+    "entryComment": "The taste was surprisingly really nice, good crunch when double frying and a unusual orange flavor which fits really good to chicken. I am not sure what i did wrong as the sauce didnt thicken, it just smoked and therefore tasted extremly like vinegar and didnt stick that well to the chicken. Might try that again."
+  },
+  {
+    "imgPath": "../images/Thumbnails/placeholder.png",
+    "imgAlt": "Entry two",
+    "entryTitle": "two",
+    "entryRating": "X/10",
+    "entryComment": "abc entry two"
+  }
+]
