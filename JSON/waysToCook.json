@@ -7,6 +7,20 @@
     "entryComment": "The taste was surprisingly really nice, good crunch when double frying and a unusual orange flavor which fits really good to chicken. I am not sure what i did wrong as the sauce didnt thicken, it just smoked and therefore tasted extremly like vinegar and didnt stick that well to the chicken. Might try that again."
   },
   {
+    "imgPath": "../images/waysToCook/chickenPiccata.jpg",
+    "imgAlt": "Chicken Piccata",
+    "entryTitle": "Chicken Piccata",
+    "entryRating": "6.5/10",
+    "entryComment": "I had great hopes for chicken Piccata as it looked absolutely mouthwatering good, sadly the base-recipe was for my taste a tiny bit too sour and i was missing a more heavy flavor as that was completly missing even after adding parmessan. If those two negatives wouldn't exist, it'd probably be a 9"
+  },
+  {
+    "imgPath": "../images/waysToCook/broiledPotato.jpg",
+    "imgAlt": "Broiled Potato",
+    "entryTitle": "Broiled Potato",
+    "entryRating": "3/10",
+    "entryComment": "I dont know what i really expected here, i thought it'd be like a crunchy snack (as i made it in pretty small cubes and heavily seasoned) but all it was, was a mushy seasoned cube, maybe fry it next time and season it just lightly with salt but that definitely isnt the way to go."
+  },
+  {
     "imgPath": "../images/Thumbnails/placeholder.png",
     "imgAlt": "Entry two",
     "entryTitle": "two",
